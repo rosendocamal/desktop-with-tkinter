@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title description">
+  <title id="title">Concepto previo del escritorio simulado</title>
+  <desc id="description">Ilustración conceptual del escritorio morado, la barra de tareas, el menú Start, dos accesos y un reloj, anterior a la implementación.</desc>
+  <defs>
+    <linearGradient id="wallpaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9209c8"/>
+      <stop offset="1" stop-color="#38004f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1b0025" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <rect width="960" height="600" rx="26" fill="#17111d"/>
+  <rect x="14" y="14" width="932" height="572" rx="18" fill="url(#wallpaper)"/>
+  <circle cx="72" cy="50" r="7" fill="#ff7c91"/>
+  <circle cx="96" cy="50" r="7" fill="#ffd166"/>
+  <circle cx="120" cy="50" r="7" fill="#7ee787"/>
+  <text x="480" y="54" text-anchor="middle" fill="#ffffff" opacity=".75" font-family="Arial, sans-serif" font-size="16">DESKTOP USER</text>
+  <circle cx="792" cy="220" r="156" fill="#ce63f8" opacity=".13"/>
+  <circle cx="170" cy="330" r="112" fill="#f527c8" opacity=".12"/>
+  <g filter="url(#shadow)">
+    <rect x="14" y="500" width="932" height="86" fill="#72079c"/>
+    <rect x="14" y="500" width="118" height="86" fill="#bb27f5"/>
+  </g>
+  <text x="73" y="552" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="21" font-weight="700">START</text>
+  <rect x="155" y="511" width="112" height="63" rx="7" fill="#ce63f8"/>
+  <text x="211" y="538" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">O</text>
+  <text x="211" y="559" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Obsidian</text>
+  <rect x="278" y="511" width="142" height="63" rx="7" fill="#ce63f8"/>
+  <text x="349" y="538" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">÷</text>
+  <text x="349" y="559" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Calculadora</text>
+  <text x="914" y="536" text-anchor="end" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="700">22:57:01</text>
+  <text x="914" y="560" text-anchor="end" fill="#ffffff" opacity=".82" font-family="Arial, sans-serif" font-size="13">2026-11-18</text>
+</svg>
