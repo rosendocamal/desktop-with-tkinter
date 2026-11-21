@@ -3,11 +3,11 @@
 Aplicación que simula un escritorio de computadora con **Python** y **Tkinter**. Incluye una pantalla de inicio de sesión, un escritorio de color morado, una barra de tareas con reloj y un menú de inicio con acciones y accesos a aplicaciones.
 
 > [!WARNING]
-> Este proyecto es una demostración, no un sistema operativo ni una herramienta de autenticación segura. La contraseña está escrita directamente en el código (`1234`). Además, las opciones **REBOOT** y **POWER OFF** ejecutan comandos reales del sistema (`reboot` y `shutdown now`); no las selecciones en una computadora que no quieras reiniciar o apagar.
+> Este proyecto es una demostración, no un sistema operativo ni una herramienta de autenticación segura. La contraseña está escrita directamente en el código (`1234`). Además, las opciones **REBOOT** y **POWER OFF** ejecutan comandos reales del sistema en sistemas Linux (`reboot` y `shutdown now`). No las selecciones en una computadora que no quieras reiniciar o apagar.
 
 ## Diseño conceptual
 
-Estos bocetos SVG representan una propuesta visual previa a la implementación. Son conceptos, no capturas ni una descripción exacta de la interfaz actual. Se guardan separados de las capturas en `.github/assets/concept/`.
+Estos bocetos SVG representan una propuesta visual previa a la implementación. Son conceptos, no capturas ni una descripción exacta de la interfaz actual.
 
 <p align="center">
   <img src=".github/assets/login-preview.svg" alt="Concepto previo de la pantalla de inicio de sesión" width="720">
@@ -44,10 +44,10 @@ Las imágenes siguientes son capturas de la interfaz ejecutada desde `desktop.py
 ## Requisitos
 
 - Python **3.10 o posterior**.
-- Tkinter, incluido con muchas instalaciones de Python. En algunas distribuciones de Linux se instala por separado; en Debian o Ubuntu puedes instalarlo con `sudo apt install python3-tk`.
-- Obsidian instalado mediante Flatpak y GNOME Calculator son opcionales: solo se necesitan para que funcionen esos accesos directos.
+- Tkinter, incluido con muchas instalaciones de Python.
+- Obsidian instalado mediante Flatpak y GNOME Calculator como opcionales para el acceso directo.
 
-El proyecto usa comandos y aplicaciones propias de Linux para abrir los accesos, reiniciar y apagar. En otros sistemas operativos, esas opciones pueden no funcionar.
+El proyecto usa comandos y aplicaciones propias de **Linux** para abrir los accesos, reiniciar y apagar. En otros sistemas operativos, esas opciones pueden no funcionar.
 
 ## Instalación y ejecución
 
@@ -68,7 +68,7 @@ No se necesitan paquetes de Python de terceros para iniciar la aplicación princ
 3. Pulsa los accesos de Obsidian o Calculadora para abrir esas aplicaciones, si están instaladas.
 
 > [!CAUTION]
-> **REBOOT** y **POWER OFF** pueden reiniciar o apagar el equipo. La aplicación no simula esas acciones: ejecuta comandos del sistema.
+> **REBOOT** y **POWER OFF** pueden reiniciar o apagar el equipo. La aplicación no simula esas acciones, ejecuta esos comandos.
 
 ## Ejercicios
 
